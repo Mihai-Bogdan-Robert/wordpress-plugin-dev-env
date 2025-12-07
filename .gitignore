@@ -1,0 +1,37 @@
+# Docker
+.docker/
+.env.local
+.env
+
+# WordPress data volumes (if local)
+wordpress_data/
+db_data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Dependencies
+node_modules/
+composer.lock
+vendor/
+
+# Logs
+*.log
+debug.log
+
+# Backups
+*.sql
+*.sql.gz
+backup/
+
+# Temporary files
+.tmp/
+temp/
